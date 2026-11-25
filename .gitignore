@@ -1,0 +1,49 @@
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Código original de CampoClaro
+/vaky/
+/campoclaro/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Cobertura de código generada
+.coverage
+.coverage.*
+htmlcov/
+
+# Node.js
+node_modules/
+.next/
+
+# Playwright
+playwright-report/
+test-results/
+playwright/.auth/
+
+# JMeter
+jmeter.log
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos temporales
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Configuración local del editor
+.vscode/
+.idea/
